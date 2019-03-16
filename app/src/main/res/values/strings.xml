@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NotificationsTest</string>
+
+    <string name="autolaunch_notification_content">"This notification is auto launched and stays launched unless closed or minimized manually"</string>
+    <string name="simple_notification_content">This is a simple notification</string>
+    <string name="continuous_notification_content">This notification cannot dismissed by swiping</string>
+    <string name="action_notification_content">This notification provides buttons to perform certain actions within the app</string>
+
+</resources>

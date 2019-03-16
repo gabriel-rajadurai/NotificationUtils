@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.gabriel.notificationstest.MainActivity">
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/bt_simpleNotification"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Simple Notification"/>
+
+<!--    <Button
+        android:layout_marginBottom="5dp"
+        android:id="@+id/bt_continuousNotification"
+        android:layout_below="@id/bt_simpleNotification"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Continuous Notification"/>-->
+
+
+    <Button
+        android:layout_marginBottom="5dp"
+        android:id="@+id/bt_autoLaunchNotification"
+        android:layout_below="@id/bt_simpleNotification"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Auto Launch Notification"/>
+
+<!--    <Button
+        android:layout_marginBottom="5dp"
+        android:id="@+id/bt_actionNotification"
+        android:layout_below="@id/bt_autoLaunchNotification"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Action Notification"/>-->
+
+
+
+</RelativeLayout>
